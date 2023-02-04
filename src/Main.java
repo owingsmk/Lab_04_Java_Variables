@@ -1,47 +1,34 @@
-public class Main {
+import java.util.Scanner;
 
+public class Main {
 
     public static void main(String[] args)
     {
             // Project init
-            int intOperandA; //decalring inital variables
-            int intOperandB;
-            int intSum;
-            int intProduct;
-            int intDifference;
-            int intQuotient;
-            int intModulo;
+            int numKidsFamily=4; //decalring inital variables
+            Scanner Rain = new Scanner(System.in);//Creates new object
 
-            intOperandA=2;
-            intOperandB=6;
-            intSum=8;
-            intProduct=88;
-            intDifference=60;
-            intQuotient=80;
-            intModulo=120;
+            System.out.println("Is it raining? ");//output statement/question
+            String isItRaining = Rain.nextLine();
+            if(isItRaining.equals("Yes")) {
+                System.out.println("It is raining");
+            }
+            else if(isItRaining.equals("No")) {
+                System.out.println("It is not raining");
+                }
 
-            double doubleOperandA; //Creating declarations
-            double doubleOperandB;
-            double doubleSum;
-            double doubleProduct;
-            double doubleDifference;
-            double doubleQuotient;
+            double gasPerGallon=5.50;
+            int favoriteNumber=7;
+            int shoeSize=11;
+            int birthMonth=7;
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter Full Name: ");
+            String fullName = scan.nextLine();
 
-            doubleOperandA=1.5;
-            doubleOperandB=3.5;
-            doubleSum=6.8;
-            doubleProduct=7.1;
-            doubleDifference=9.3;
-            doubleQuotient=11.5;
-
-
-            intDifference = intModulo / intQuotient * intProduct; // Assignment that uses the arithmentic operator
-            intSum = intOperandA + intOperandB;
-
-            doubleSum = doubleOperandA * doubleOperandB;
-            doubleDifference = doubleProduct - doubleQuotient;
-
-        System.out.println("The intSum is " + intSum + " and the difference is " + intDifference); // The total from all variables
-        System.out.print("The Sum total doubled is " + doubleSum + " and the difference is "+ doubleDifference);
+    System.out.println("This is how many kids are in the family " + numKidsFamily);
+    System.out.println("Is it raining? " + isItRaining);
+    System.out.println("How much is gas in your area? " + gasPerGallon);
+    System.out.println("This is your birth month "+ birthMonth + " and this is your favorite number " + favoriteNumber);
+    System.out.println("WHat is your shoes size? "+ shoeSize);
     }
 }
