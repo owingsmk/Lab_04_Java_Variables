@@ -15,8 +15,8 @@ public class Main {
             intOperandA=2;
             intOperandB=6;
             intSum=8;
-            intProduct=44;
-            intDifference=68;
+            intProduct=88;
+            intDifference=60;
             intQuotient=80;
             intModulo=120;
 
@@ -35,9 +35,13 @@ public class Main {
             doubleQuotient=11.5;
 
 
+            intDifference = intModulo / intQuotient * intProduct; // Assignment that uses the arithmentic operator
+            intSum = intOperandA + intOperandB;
 
-            intSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
+            doubleSum = doubleOperandA * doubleOperandB;
+            doubleDifference = doubleProduct - doubleQuotient;
 
-        System.out.println("The intSum is " + intSum);
+        System.out.println("The intSum is " + intSum + " and the difference is " + intDifference);
+        System.out.print("The Sum total doubled is " + doubleSum + " and the difference is "+ doubleDifference);
     }
 }
