@@ -1,16 +1,43 @@
 public class Main {
+
+
     public static void main(String[] args)
     {
-        // Project init
-        int intOperandA = 10:
-        int intOperandB = 12:
-        int intOperandC = 14:
-        int intSum = 16
-        int intDifference = 18
-        int intQuotient = 20
-        int intModulo = 24
-        intSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
-        System.out.println(“The Sum using ints of " + intOperandA + "" + intOperaB + " is " + intSum)"; //Output Statement
+            // Project init
+            int intOperandA; //decalring inital variables
+            int intOperandB;
+            int intSum;
+            int intProduct;
+            int intDifference;
+            int intQuotient;
+            int intModulo;
 
+            intOperandA=2;
+            intOperandB=6;
+            intSum=8;
+            intProduct=44;
+            intDifference=68;
+            intQuotient=80;
+            intModulo=120;
+
+            double doubleOperandA; //Creating declarations
+            double doubleOperandB;
+            double doubleSum;
+            double doubleProduct;
+            double doubleDifference;
+            double doubleQuotient;
+
+            doubleOperandA=1.5;
+            doubleOperandB=3.5;
+            doubleSum=6.8;
+            doubleProduct=7.1;
+            doubleDifference=9.3;
+            doubleQuotient=11.5;
+
+
+
+            intSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
+
+        System.out.println("The intSum is " + intSum);
     }
 }
