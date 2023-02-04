@@ -41,7 +41,7 @@ public class Main {
             doubleSum = doubleOperandA * doubleOperandB;
             doubleDifference = doubleProduct - doubleQuotient;
 
-        System.out.println("The intSum is " + intSum + " and the difference is " + intDifference);
+        System.out.println("The intSum is " + intSum + " and the difference is " + intDifference); // The total from all variables
         System.out.print("The Sum total doubled is " + doubleSum + " and the difference is "+ doubleDifference);
     }
 }
